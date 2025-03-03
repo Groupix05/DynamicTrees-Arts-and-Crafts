@@ -1,0 +1,7 @@
+{
+    "common_leaves": "dtartsandcrafts:cork",
+    "common_species": "dtartsandcrafts:cork",
+    "primitive_log": "arts_and_crafts:cork_log",
+    "primitive_stripped_log": "arts_and_crafts:stripped_cork_log",
+    "max_branch_radius": 8
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "arts_and_crafts:block/cork_log",
+    "rings": "arts_and_crafts:block/cork_log_top"
+  }
+}

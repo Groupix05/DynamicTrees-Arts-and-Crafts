@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "arts_and_crafts:block/stripped_cork_log",
+    "rings": "arts_and_crafts:block/stripped_cork_log_top"
+  }
+}
