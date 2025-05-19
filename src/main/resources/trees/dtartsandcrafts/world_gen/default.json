@@ -16,5 +16,206 @@
       ],
       "chance": "standard"
     }
+  },
+  {
+    "only_if_loaded":"dtbwg",
+    "select": {
+      "name": "biomeswevegone:araucaria_savanna"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtbwg:araucaria": 12,
+          "dynamictrees:oak": 1,
+          "dynamictrees:acacia": 2,
+          "dtartsandcrafts:cork": 2
+        }
+      },
+      "density": [ 0.3 ],
+      "chance": 0.5
+    }
+  },
+  {
+    "only_if_loaded":"dtbwg",
+    "select": {
+      "name": "biomeswevegone:baobab_savanna"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtbwg:baobab": 1,
+          "dynamictrees:acacia": 1,
+          "dtartsandcrafts:cork": 1,
+          "dynamictrees:oak": 2
+        }
+      },
+      "density": [ 0.1 ],
+      "chance": 0.4
+    }
+  },
+  {
+    "only_if_loaded":"dtbwg",
+    "select": {
+      "name": "biomeswevegone:ironwood_gour"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtbwg:ironwood": 4,
+          "dynamictrees:acacia": 2,
+          "dtartsandcrafts:cork": 2,
+          "dynamictrees:oak": 1
+        }
+      },
+      "density": [ 0.5 ],
+      "chance": 0.5,
+      "heightmap": "ocean_floor"
+    }
+  },
+  {
+    "only_if_loaded":"dtnatures_spirit",
+    "select": {
+      "name": "natures_spirit:arid_savanna"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dynamictrees:acacia": 1,
+          "dtartsandcrafts:cork": 1
+        }
+      },
+      "density": [
+        0.6
+      ],
+      "chance": 0.6,
+      "forestness": 1.0
+    }
+  },
+  {
+    "only_if_loaded":"dtnatures_spirit",
+    "select": {
+      "name": "natures_spirit:flowering_shrubland"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dynamictrees:acacia": 1,
+          "dtartsandcrafts:cork": 1
+        }
+      },
+      "density": [
+        0.2
+      ],
+      "chance": 0.5,
+      "forestness": 1.0
+    }
+  },
+  {
+    "only_if_loaded":"dtnatures_spirit",
+    "select": {
+      "name": "natures_spirit:scorched_dunes"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dynamictrees:acacia": 1,
+          "dtartsandcrafts:cork": 1
+        }
+      },
+      "density": [
+        0.5
+      ],
+      "chance": 0.45,
+      "forestness": 1.0
+    }
+  },
+  {
+    "only_if_loaded":"dtnatures_spirit",
+    "select": {
+      "name": "natures_spirit:shrubland"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dynamictrees:acacia": 1,
+          "dtartsandcrafts:cork": 1
+        }
+      },
+      "density": [
+        0.25
+      ],
+      "chance": 0.7,
+      "forestness": 1.0
+    }
+  },
+  {
+    "only_if_loaded":"dtnatures_spirit",
+    "select": {
+      "name": "natures_spirit:sparse_tropical_woods"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtnatures_spirit:mahogany": 3,
+          "dynamictrees:acacia": 1,
+          "dtartsandcrafts:cork": 1
+        }
+      },
+      "density": [
+        0.75
+      ],
+      "chance": 0.98,
+      "forestness": 1.0
+    }
+  },
+  {
+    "only_if_loaded":"dtru",
+    "select": { "name": "regions_unexplored:dry_bushland" },
+    "apply": {
+      "species" : {
+        "random" : {
+          "dtru:socotra" : 3,
+          "dtru:oak_twiglet" : 3,
+          "acacia" : 1,
+          "dtartsandcrafts:cork": 1
+        }
+      },
+      "density": [0.3],
+      "chance": 0.4,
+      "forestness" : 0.5
+    }
+  },
+  {
+    "only_if_loaded":"dtterralith",
+    "select": { "name": "terralith:fractured_savanna" },
+    "apply": {
+      "species" : {
+        "random" : {
+          "acacia" : 1,
+          "dtartsandcrafts:cork": 1,
+          "dtterralith:small" : 1,
+          "dtterralith:sparse_acacia" : 1,
+          "dtterralith:tall_acacia" : 1,
+          "dtterralith:sparce_oak" : 1
+        }
+      },
+      "density": 0.2,
+      "chance": 1
+    }
+  },
+  {
+    "only_if_loaded":"dtterralith",
+    "select": { "name": "terralith:savanna_slopes" },
+    "apply": {
+      "species" : {
+        "random" : {
+          "acacia" : 2,
+          "dtartsandcrafts:cork": 2,
+          "oak" : 1
+        }
+      },
+      "density": 0.1,
+      "chance": 1
+    }
   }
 ]
