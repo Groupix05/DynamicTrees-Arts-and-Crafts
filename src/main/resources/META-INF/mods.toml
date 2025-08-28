@@ -18,7 +18,7 @@ Adds Dynamic Trees compatibility for Arts and Crafts.
 [[dependencies.dtartsandcrafts]]
     modId="forge"
     mandatory=true
-    versionRange="[47.1.3,)"
+    versionRange="[47.3.0,)"
     ordering="NONE"
     side="BOTH"
 
@@ -32,6 +32,6 @@ Adds Dynamic Trees compatibility for Arts and Crafts.
 [[dependencies.dtartsandcrafts]]
     modId="dynamictrees"
     mandatory=true
-    versionRange="[1.3.6,)"
+    versionRange="[1.4.5,)"
     ordering="AFTER"
     side="BOTH"

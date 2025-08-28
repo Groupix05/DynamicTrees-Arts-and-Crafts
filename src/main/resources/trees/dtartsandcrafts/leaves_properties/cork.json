@@ -1,6 +1,5 @@
 {
   "primitive_leaves": "arts_and_crafts:cork_leaves",
   "cell_kit": "dynamictrees:acacia",
-  "smother": 2,
-  "color": "@biome"
+  "smother": 2
 }
